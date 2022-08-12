@@ -16,5 +16,6 @@ public class Main {
             fac *= i;
         }
         System.out.println(fac);
+        System.out.println(2+2);
     }
 }
