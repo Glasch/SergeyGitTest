@@ -11,5 +11,6 @@ public class Main {
             System.out.println(i);
         }
         System.out.println(res);
+        System.out.println(2+2);
     }
 }
