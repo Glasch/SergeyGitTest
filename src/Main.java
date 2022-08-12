@@ -6,10 +6,15 @@ public class Main {
         System.out.println("hjfvghil;km,");
         System.out.println("Serega fetch it!");
         int res = 0;
+        int fac = 1;
         for (int i = 0; i < 11; i++) {
             res += i;
-            System.out.println(i);
+            System.out.println(res);
         }
         System.out.println(res);
+        for (int i = 1; i < 11; i++) {
+            fac *= i;
+        }
+        System.out.println(fac);
     }
 }
