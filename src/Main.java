@@ -8,6 +8,7 @@ public class Main {
         int res = 0;
         for (int i = 0; i < 11; i++) {
             res += i;
+            System.out.println(i);
         }
         System.out.println(res);
     }
